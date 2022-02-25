@@ -1,0 +1,120 @@
+{
+  "name": "ICSS - USERBOT",
+  "description": "Arabic Userbot for you by - @rruuurr ",
+  "logo": "https://telegra.ph/file/b204d0eade42f0acab4fe.jpg",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/selfrbbh/SELFR-USERBOT/",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "ALIVE_NAME": {
+      "description": "ادخل اسمك هنا",
+      "value": "HRBY"
+    },
+    "APP_ID": {
+      "description": "اب ايدي",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "ايبي هاش",
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "كود التيرمكس",
+      "value": ""
+    },
+    "ENV": {
+      "description": "لتغير بيها شي",
+      "value": "ANYTHING"
+    },
+    "TG_BOT_USERNAME": {
+      "description": "معرف البوت",
+      "value": "SELFR_BOT"
+    },
+    "TG_BOT_TOKEN": {
+      "description": " توكن البوت - يجب وضع البوت انلاين مود",
+      "value": "5265069125:AAHnKYutlKRP8YDBsivAf0B2SFGugihdGkg"
+    },
+    "PMPERMIT_PIC": {
+      "description": "صوره ",
+      "value": "https://telegra.ph/file/f036bacbf22b9917c7997.jpg",
+      "required": false
+    },
+    "COMMAND_HAND_LER": {
+      "description": "اتركها كما هيه",
+      "value": ".",
+      "required": false
+    },
+    "MAX_FLOOD_IN_PMS": {
+      "description": "عدد الرسائل ",
+      "value": "5",
+      "required": false
+    },
+    "PRIVATE_GROUP_ID": {
+      "description": "الكروب ",
+      "value": "-647275601",
+      "required": false
+    },
+    "CUSTOM_PMPERMIT_TEXT": {
+      "description": " الكليشه الحمايه ",
+      "value": "",
+      "required": false
+    },
+    "PRIVATE_GROUP_BOT_API_ID": {
+      "description": "ايدي الكروب ",
+      "value": "-647275601",
+      "required": false
+    },
+    "OWNER_ID": {
+      "description": "ايدي حسابك",
+      "value": "1510678973",
+      "required": false
+    },
+
+    "HEROKU_API_KEY": {
+      "description": "هيروكو ابي كي من الاعدادات عن طريق الرابط https://dashboard.heroku.com/account",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "اسم التطبيق ",
+      "value": "",
+      "required": false
+    },
+    "TZ": {
+      "description": "منطقتك ",
+      "value": "Asia/Baghdad",
+      "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "رمز السورس",
+      "value": "selfr ",
+      "required": false
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
+}
